@@ -3,8 +3,9 @@ class Owner
   attr_accessor :name
   attr_accessor :species
 
-  def initialize(owner)
+  def initialize(name)
     @species = "human"
+    @name = name
     @@all << self
   end
 
