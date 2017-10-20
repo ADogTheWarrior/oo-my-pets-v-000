@@ -1,7 +1,7 @@
 class Owner
   @@all = []
   attr_accessor :species
-  
+
   def initialize(owner)
     @species = "human"
     @@all << self
@@ -17,5 +17,9 @@ class Owner
 
   def self.count
     @@all.size
+  end
+
+  def say_species
+    "I am a #{species}."
   end
 end
