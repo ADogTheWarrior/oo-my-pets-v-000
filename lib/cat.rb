@@ -1,4 +1,4 @@
 class Cat
-  def initialize
+  def initialize(name, mood)
   end
 end
